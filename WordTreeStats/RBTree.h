@@ -1,13 +1,14 @@
 #pragma once
+#include "pch.h"
 #include <string.h>
-#include <fstream.h>
+#include <fstream>
 
-ofstream fout("result.out");
+extern std::ofstream fout;
 
-int word_count = 1;
-int treeheight = 0;
-int left_rotate_count = 0;
-int right_rotate_count = 0;
+extern int word_count;
+extern int treeheight;
+extern int left_rotate_count;
+extern int right_rotate_count;
 
 class RBTree {
 
@@ -29,4 +30,3 @@ public:
 	int color;//red==1; black==2
 
 };
-

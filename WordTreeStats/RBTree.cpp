@@ -1,5 +1,5 @@
 #include "pch.h"
-#include "RSTree.h"
+#include "RBTree.h"
 
 RBTree::RBTree() {
 	left = 0;
@@ -124,7 +124,7 @@ void RBTree::Black_Height(RBTree *t) {
 		if (t->color == 2) height++;
 	}
 	height++;
-	fout << "Black Height is: " << height << endl;
+	fout << "Black Height is: " << height << std::endl;
 
 }
 
@@ -137,7 +137,7 @@ void RBTree::print(RBTree *t, int & height)
 	count++;
 	fout << t->key << " " << t->count << "  ";
 	if (count == 5) {
-		fout << endl;
+		fout << std::endl;
 		count = 0;
 	}
 	print(t->right, right_height);
@@ -145,4 +145,3 @@ void RBTree::print(RBTree *t, int & height)
 	return;
 
 }
-
