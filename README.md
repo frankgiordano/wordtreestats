@@ -10,6 +10,7 @@ ASCII 1  Aarhus 2  Abelian 3  Abstraction 1  Accept 1
 Aceto 1  Action 2  Address 6  Addressing 1  After 1  
 ...........
 ...........
+
 Total # of distinct words is: 1441
 Total # of word occurences is: 4492
 The normal height of the final tree is: 13
