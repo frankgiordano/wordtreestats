@@ -1,5 +1,5 @@
-This was one of my early C++ programs I have written. The goal was to implement a balance binary tree structure (Reb Black tree) and demostrated it. 
-This program when executed looks for input.txt file in the current working directory and retrieves all the words in the file and adds them in the tree sorted. 
+This was one of my early C++ programs I have written. The goal was to implement a balance binary tree structure (Red Black tree) and demostrated it. 
+This program when executed looks for input.txt file in the current working directory. It will retrieve all the words in the file and adds them in the tree sorted. 
 It will then provide results of all the words sorted and the number of occurances and other stats about the tree and its usage. An example:
 
 
