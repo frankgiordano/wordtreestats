@@ -28,18 +28,6 @@ Accept 1
 Aceto 1  
 Action 2  
 Address 6  
-Addressing 1  
-After 1  
-Algebra 1  
-Algebras 3  
-Allbery 1  
-Alpaydin 1  
-Analysis 2  
-Anatomy 2  
-Anna 1  
-Annual 1  
-Anonymous 1  
-Applications 2  
 ...........
 ...........
 
