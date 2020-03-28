@@ -1,4 +1,5 @@
 #pragma once
+
 #include "pch.h"
 #include <string.h>
 #include <fstream>
@@ -13,20 +14,25 @@ extern int right_rotate_count;
 class RBTree {
 
 public:
-	RBTree();
-	RBTree *Tree_Insert(RBTree *, RBTree *, RBTree *);
-	RBTree *RB_Insertion(RBTree *, RBTree *);
-	RBTree *Left_Rotate(RBTree *, RBTree *);
-	RBTree *Right_Rotate(RBTree *, RBTree *);
-	void print(RBTree *, int &);
-	void Black_Height(RBTree *);
+    RBTree();
 
+    RBTree *Tree_Insert(RBTree *, RBTree *, RBTree *);
 
-	char key[20];
-	RBTree * left;
-	RBTree * right;
-	RBTree * parent;
-	int count;
-	int color;//red==1; black==2
+    RBTree *RB_Insertion(RBTree *, RBTree *);
+
+    RBTree *Left_Rotate(RBTree *, RBTree *);
+
+    RBTree *Right_Rotate(RBTree *, RBTree *);
+
+    void print(RBTree *, int &);
+
+    void Black_Height(RBTree *);
+
+    char key[20];
+    RBTree *left;
+    RBTree *right;
+    RBTree *parent;
+    int count;
+    int color;//red==1; black==2
 
 };
