@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "RBTree.h"
 
 RBTree::RBTree() {
