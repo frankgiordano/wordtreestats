@@ -9,8 +9,7 @@ An example:
 C:\>wordtreestats input.txt  
 Results stored within result.out.
 
-C:\>notepad result.out
-
+C:\>notepad result.out  
 result.out:
 
 List of sorted distinct words and their # of occurrences:
@@ -25,10 +24,7 @@ Aarhus 2
 Abelian 3  
 Abstraction 1  
 Accept 1  
-Aceto 1  
-Action 2  
-Address 6  
-...........
+
 ...........
 
 1441 - distinct words  
