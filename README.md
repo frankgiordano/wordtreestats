@@ -8,8 +8,7 @@ An example:
 
 C:\>wordtreestats input.txt  
 Results stored within result.out.
-
-C:\>notepad result.out  
+  
 result.out:
 
 List of sorted distinct words and their # of occurrences:
